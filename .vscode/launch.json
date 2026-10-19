@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug vulnserver",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/vulnserver",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "MIMode": "gdb",
+      "preLaunchTask": "build vulnserver"
+    }
+  ]
+}
